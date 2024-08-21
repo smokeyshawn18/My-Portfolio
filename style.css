@@ -1145,6 +1145,24 @@ time {
   font-weight: var(--fw-300);
 }
 
+.live-demo-btnn {
+
+  margin: 15px 25px;
+  padding: 10px 45px;
+  background-color: var(--orange-yellow-crayola);
+  color: var(--eerie-black-2);
+  border-radius: 8px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.live-demo-btnn:hover {
+  background-color: var(--jet);
+  color: var(--light-gray);
+}
+
 .live-demo-btn {
   display: inline-block;
   margin: 10px;
@@ -1976,6 +1994,9 @@ textarea.form-input::-webkit-resizer {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .live-demo-btnn {
+    margin-left: 2em;
+  }
 
 
   /**
