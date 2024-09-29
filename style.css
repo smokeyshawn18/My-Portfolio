@@ -933,6 +933,51 @@ time {
   margin-bottom: 15px;
 }
 
+.skills-item i {
+  font-size: 24px;
+  margin-right: 8px;
+  /* You can customize icon color */
+}
+
+/* Icon colors */
+.icon-html {
+  color: #E44D26;
+}
+
+/* HTML */
+.icon-css {
+  color: #1572B6;
+}
+
+/* CSS */
+.icon-js {
+  color: #F7DF1E;
+}
+
+/* JavaScript */
+.icon-react {
+  color: #61DAFB;
+}
+
+/* ReactJS */
+.icon-mongo {
+  color: #47A248;
+}
+
+/* MongoDB */
+.icon-design {
+  color: #FF6347;
+}
+
+/* Graphic Design */
+.icon-branding {
+  color: #FF4500;
+}
+
+/* Branding */
+
+
+
 .skill .title-wrapper {
   display: flex;
   align-items: center;
